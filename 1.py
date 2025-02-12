@@ -1,5 +1,13 @@
+import sys,os
 import telebot, requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+os.system("pip3 install user_agent")
+os.system("pip3 install colorama")
+os .system("pip3 install requests")
+os.system("pip3 install rich")
+os.system("pip3 install bs4")
+os.system("pip3 install telegram")
+os.system("pip3 install cfonts")
 Q_B_H = """
 b = telebot.TeleBot(("5929336119:AAG-xeDSJOL9ibG2ceVRk8ibF5xuL3WHUoA"))
 o = int(("1394265953"))
